@@ -10,7 +10,6 @@ import orderRoutes from "./routes/orderRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import { error } from "console";
-import { path } from 'path';
 
 dotenv.config();
 
